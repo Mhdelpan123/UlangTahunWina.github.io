@@ -105,7 +105,7 @@ function MercunLove() {
 // 2. KOMPONEN COUNTDOWN (TOMBOL SKIP DIHAPUS)
 // ==========================================
 function CountdownComponent({ onFinish }) {
-  const TARGET_DATE = '2026-06-01T00:00:00';
+  const TARGET_DATE = '2026-06-02T00:00:00';
   const [timeLeft, setTimeLeft] = useState({});
 
   useEffect(() => {
