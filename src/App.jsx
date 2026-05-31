@@ -99,7 +99,7 @@ function MercunLove() {
 // 2. KOMPONEN COUNTDOWN (RESPONSIF)
 // ==========================================
 function CountdownComponent({ onFinish }) {
-  const TARGET_DATE = '2026-05-30T14:55:00';
+  const TARGET_DATE = '2026-06-02T00:00:00';
   const [timeLeft, setTimeLeft] = useState({});
 
   useEffect(() => {
